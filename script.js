@@ -1,5 +1,7 @@
 var button = document.querySelector("button");
+var questions = ["How many continents are there?"]
 
 button.addEventListener ("click", function(){
-  alert ("you just clicked the button!");
+  var answer = prompt (questions[0]);
+  console.log (answer);
 });
