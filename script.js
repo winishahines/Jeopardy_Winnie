@@ -1,4 +1,3 @@
-var button = document.querySelector("button");
 var counter = document.getElementById("counter");
 var correctAnswers = 0;
 var incorrectAnswers = 0;
@@ -10,7 +9,6 @@ var questions = [
 ]
 
 
-button.addEventListener ("click", function() {
     for (var i = 0; i < questions.length; i++) {
       var div = document.createElement("div");
       div.textContent = questions[i].value;
@@ -37,4 +35,3 @@ button.addEventListener ("click", function() {
       //     counter.innerHTML = ("Sorry that's the wrong answer. You've answered " + incorrectAnswers + " questions incorrectly")
       //   }
     }
-});
