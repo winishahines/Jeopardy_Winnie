@@ -31,9 +31,7 @@ var questions = [
   {question: "This James Cameron film, released in 2009 is considered the highest grossing movie of all time.", answer: "Avatar", value: 500},
   {question: "This state is the number one peanut producer in the U.S. and half of its crop gets processed into peanut butter.", answer: "Georgia", value: 500},
   {question: "This state is the number one peanut producer in the U.S. and half of its crop gets processed into peanut butter.", answer: "Georgia", value: 500},
-
 ]
-
 
 for (var i = 0; i < questions.length; i++) {
   var div = document.createElement("div");
@@ -51,12 +49,12 @@ for (var i = 0; i < questions.length; i++) {
     }
   })
   div.addEventListener("mouseover", changeBackgroundToBlue);
-  div.addEventListener("mouseout", changeBackgroundToTeal);
     function changeBackgroundToBlue (){
-      document.body.style.backgroundColor = "#091a5e";
+      this.style.backgroundColor = "#091a5e";
   }
+  div.addEventListener("mouseout", changeBackgroundToTeal);
     function changeBackgroundToTeal (){
-      document.body.style.backgroundColor = "white";
+      this.style.backgroundColor = "#108f8b";
   }
   document.body.appendChild(div);
 }
