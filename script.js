@@ -56,7 +56,7 @@ for (var i = 0; i < questions.length; i++) {
       document.div.style.backgroundColor = "#091a5e";
   }
     function changeBackgroundToTeal (){
-      document.div.style.backgroundColor = "white";
+      document.div.style.backgroundColor = "#108f8b";
   }
   document.body.appendChild(div);
 }
