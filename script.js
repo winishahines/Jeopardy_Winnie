@@ -53,10 +53,10 @@ for (var i = 0; i < questions.length; i++) {
   div.addEventListener("mouseover", changeBackgroundToBlue);
   div.addEventListener("mouseout", changeBackgroundToTeal);
     function changeBackgroundToBlue (){
-      document.div.style.backgroundColor = "#091a5e";
+      document.body.style.backgroundColor = "#091a5e";
   }
     function changeBackgroundToTeal (){
-      document.div.style.backgroundColor = "#108f8b";
+      document.body.style.backgroundColor = "white";
   }
   document.body.appendChild(div);
 }
