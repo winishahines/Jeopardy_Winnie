@@ -5,23 +5,29 @@ h1 {
   text-shadow: 2px 2px 4px #108f8b;
 }
 
-div {
-    font-size: 2em;
-    text-align: center;
-    background-color: #108f8b;
-    padding: 3px;
-    width: 15%;
-    color: #312d47;
-    height: 60px;
-    border: 4px solid;
-    margin-top: 2px;
+.categories {
+  font-family: 'Patua One', cursive;
+  font-size: 1em;
+  text-align: center;
+  color: #312d47;
 }
 
-/* #game {
-    width: 100%;
-    background-color: #000000;
-    padding: 0;
-    margin: 0;
-    margin: auto;
-    font-size: 16px;
-} */
+div {
+  display: inline-block;
+  font-family: 'Patua One', cursive;
+  font-size: 1.5em;
+  text-align: center;
+  background-color: #108f8b;
+  padding: 12px;
+  width: 15%;
+  color: #312d47;
+  height: 60px;
+  border: 3px solid;
+  border-style: double;
+  margin-left: 4px;
+  margin-top: 4px;
+}
+
+body{
+  text-align: center;
+}
