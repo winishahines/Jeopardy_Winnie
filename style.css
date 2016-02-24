@@ -1,15 +1,8 @@
 h1 {
   font-family: 'Patua One', cursive;
-  color: #312d47;
+  color: black;
   text-align: center;
   text-shadow: 2px 2px 4px #108f8b;
-}
-
-.categories {
-  font-family: 'Patua One', cursive;
-  font-size: 1em;
-  text-align: center;
-  color: #312d47;
 }
 
 div {
@@ -20,7 +13,7 @@ div {
   background-color: #108f8b;
   padding: 12px;
   width: 15%;
-  color: #312d47;
+  color: black;
   height: 60px;
   border: 3px solid;
   border-style: double;
