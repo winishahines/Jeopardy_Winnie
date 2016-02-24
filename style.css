@@ -1,5 +1,27 @@
 h1 {
   font-family: 'Patua One', cursive;
-  color: #0A3273;
+  color: #312d47;
   text-align: center;
+  text-shadow: 2px 2px 4px #108f8b;
 }
+
+div {
+    font-size: 2em;
+    text-align: center;
+    background-color: #108f8b;
+    padding: 3px;
+    width: 15%;
+    color: #312d47;
+    height: 60px;
+    border: 4px solid;
+    margin-top: 2px;
+}
+
+/* #game {
+    width: 100%;
+    background-color: #000000;
+    padding: 0;
+    margin: 0;
+    margin: auto;
+    font-size: 16px;
+} */
