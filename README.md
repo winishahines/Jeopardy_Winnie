@@ -30,12 +30,14 @@ Gold (Future Additions)
 * Timed response (10 seconds to answer)
 * Add current user points to the browser
 * Create prompt for winner once all questions answered
+* Research case-sensitivity for answers
 
 
 # Unsolved Problems:
 * Missing the ability to hide a category value that has already been selected.
 * User shouldn't be able to click on the category headers.
 * Once all questions are answered, user should receive a prompt that the game is over.
+* Answers are case-sensitive.
 
 # User Stories:
 * As a user, I should be able to see a game board with existing categories and values.
