@@ -24,6 +24,13 @@ Silver
 * Styling added to divs and header
 * Event listeners created for mouseover and mouseout functionality when scrolling over each div
 
+Gold (Future Additions)
+* Multi-player functionality
+* Hide category values that have already been selected
+* Timed response (10 seconds to answer)
+* Add current user points to the browser
+* Create prompt for winner once all questions answered
+
 
 # Unsolved Problems:
     * Missing the ability to hide a category value that has already been selected
