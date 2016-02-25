@@ -1,10 +1,10 @@
 # Jeopardy_Winnie
 
 # Technologies used:
-    * Atom
-    * HTML
-    * CSS
-    * Javascript
+* Atom
+* HTML
+* CSS
+* Javascript
 
 # Approach Taken:
 Bronze
