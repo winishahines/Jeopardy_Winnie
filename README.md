@@ -7,22 +7,22 @@
     * Javascript
 
 # Approach Taken:
-  Bronze
-    * Header: "Welcome to Jeopardy"
-    * 1 player
-    * User clicks a button that prompts questions (only 4 questions tied to a for loop)
-    * Once user answers question, they are told if the answer if correct or incorrect
-    * The number of correct and incorrect responses get printed to the browser
+Bronze
+* Header: "Welcome to Jeopardy"
+* 1 player
+* User clicks a button that prompts questions (only 4 questions tied to a for loop)
+* Once user answers question, they are told if the answer if correct or incorrect
+* The number of correct and incorrect responses get printed to the browser
 
-  Silver
-    * Header: "Let's Play Jeopardy"
-    * 1 player
-    * 25 questions, 5 categories.
-    * Questions are objects within an array that include 'question', 'answer', and 'value' properties.
-    * Question loop updated to create div elements in table like format, user clicks div to prompt question
-    * Once user answers question, they are told if the answer if correct or incorrect; point values added or subtracted
-    * Styling added to divs and header
-    * Event listeners created for mouseover and mouseout functionality when scrolling over each div
+Silver
+* Header: "Let's Play Jeopardy"
+* 1 player
+* 25 questions, 5 categories.
+* Questions are objects within an array that include 'question', 'answer', and 'value' properties.
+* Question loop updated to create div elements in table like format, user clicks div to prompt question
+* Once user answers question, they are told if the answer if correct or incorrect; point values added or subtracted
+* Styling added to divs and header
+* Event listeners created for mouseover and mouseout functionality when scrolling over each div
 
 
 # Unsolved Problems:
