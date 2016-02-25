@@ -1,6 +1,4 @@
-var counter = document.getElementById("counter");
 var correctAnswers = 0;
-var incorrectAnswers = 0;
 var questions = [
   {value: "U.S. States"},
   {value: "Music"},
@@ -46,14 +44,18 @@ for (var i = 0; i < questions.length; i++) {
   div.textContent = questions[i].value;
   div.setAttribute("question", questions[i].question)
   div.setAttribute("answer", questions[i].answer)
+  div.setAttribute("value", questions[i].value)
   div.addEventListener("click", function(){
     var input = prompt(this.getAttribute("question"));
     var answer = this.getAttribute("answer");
+    var points = this.getAttribute("value")
     if (input == answer){
-      alert("correct!");
+      correctAnswers +=parseInt(points);
+      alert("Good job! You have " + correctAnswers + " points.");
     }
     else {
-      alert("incorrect.");
+      correctAnswers -=parseInt(points)
+      alert("Sorry, that's wrong. You have " + correctAnswers + " points now.");
     }
   })
   div.addEventListener("mouseover", changeBackgroundToBlue);
