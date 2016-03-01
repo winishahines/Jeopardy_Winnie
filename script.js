@@ -38,6 +38,11 @@ var questions = [
   {question: "Georgia is the largest U.S. producer of this popular nut; often processed into butter.", answer: "Peanut", value: 500},
   {question: "In what country is the Valley of the Kings located.", answer: "Egypt", value: 500},
 ]
+/*
+I bet you got tired of writing `question` and `value` 3000 times! Next time, you could probably just have each question be an array instead of an object:
+var question = ["Why so serious?", "The Dark Knight", 500]
+var prompt = question[0], answer = question[1], value = question[2].
+*/
 
 for (var i = 0; i < questions.length; i++) {
   var div = document.createElement("div");
@@ -66,5 +71,8 @@ for (var i = 0; i < questions.length; i++) {
     function changeBackgroundToTeal (){
       this.style.backgroundColor = "#108f8b";
   }
+  /*
+You can achieve this same effect really easily with CSS! Look into the `:hover` selector
+  */
   document.body.appendChild(div);
 }
