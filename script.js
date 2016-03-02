@@ -1,5 +1,6 @@
 var correctAnswers = 0;
 var questions = [
+  //this section should be refactored to align questions with appropriate category
   {value: "U.S. States"},
   {value: "Music"},
   {value: "Name the Movie"},
